@@ -139,7 +139,7 @@ html {
 	}
 
 body, input, select, textarea {
-	color: #d3b780;
+	color: #d7bd87;
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 300;
 	font-size: 1rem;
@@ -162,7 +162,7 @@ a {
 	}
 
 strong, b {
-	color: #d3b780;
+	color: #d7bd87;
 	font-weight: 600;
 }
 
@@ -175,7 +175,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #d3b780;
+	color: #d7bd87;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 1rem 0;
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-		border-bottom: solid 1px #d3b780;
+		border-bottom: solid 1px #d7bd87;
 		width: -moz-max-content;
 		width: -webkit-max-content;
 		width: -ms-max-content;
@@ -263,7 +263,7 @@ sup {
 }
 
 blockquote {
-	border-left: solid 4px #d3b780;
+	border-left: solid 4px #d7bd87;
 	font-style: italic;
 	margin: 0 0 2rem 0;
 	padding: 0.5rem 0 0.5rem 2rem;
@@ -385,7 +385,7 @@ form {
 	}
 
 label {
-	color: #d3b780;
+	color: #d7bd87;
 	display: block;
 	font-size: 0.8rem;
 	font-weight: 300;
@@ -411,7 +411,7 @@ textarea {
 	transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 	background-color: transparent;
 	border-radius: 4px;
-	border: solid 1px #d3b780;
+	border: solid 1px #d7bd87;
 	color: inherit;
 	display: block;
 	outline: 0;
@@ -437,7 +437,7 @@ textarea {
 	textarea:focus {
 		background: rgba(255, 255, 255, 0.075);
 		border-color: #d3b780;
-		box-shadow: 0 0 0 1px #ffffff;
+		box-shadow: 0 0 0 1px #d7bd87;
 	}
 
 select {
@@ -451,7 +451,7 @@ select {
 }
 
 	select option {
-		color: #d3b780;
+		color: #d7bd87;
 		background: #1b1f22;
 	}
 
@@ -523,7 +523,7 @@ input[type="radio"] {
 			-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 			transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 			border-radius: 4px;
-			border: solid 1px #d3b780;
+			border: solid 1px #d7bd87;
 			content: '';
 			display: inline-block;
 			height: 1.65rem;
@@ -538,7 +538,7 @@ input[type="radio"] {
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
 		background: #ffffff !important;
-		border-color: #ffffff !important;
+		border-color: #d7bd87 !important;
 		color: #1b1f22;
 		content: '\f00c';
 	}
@@ -587,7 +587,7 @@ input[type="radio"] + label:before {
 
 .box {
 	border-radius: 4px;
-	border: solid 1px #d3b780;
+	border: solid 1px #d7bd87;
 	margin-bottom: 2rem;
 	padding: 1.5em;
 }
@@ -736,7 +736,7 @@ ul {
 	}
 
 		ul.alt li {
-			border-top: solid 1px #d3b780;
+			border-top: solid 1px #d7bd87;
 			padding: 0.5em 0;
 		}
 
@@ -928,7 +928,7 @@ table {
 }
 
 	table tbody tr {
-		border: solid 1px #d3b780;
+		border: solid 1px #d7bd87;
 		border-left: 0;
 		border-right: 0;
 	}
@@ -942,7 +942,7 @@ table {
 	}
 
 	table th {
-		color: #ffffff;
+		color: #d7bd87;
 		font-size: 0.9em;
 		font-weight: 600;
 		padding: 0 0.75em 0.75em 0.75em;
@@ -950,11 +950,11 @@ table {
 	}
 
 	table thead {
-		border-bottom: solid 2px #ffffff;
+		border-bottom: solid 2px #d7bd87;
 	}
 
 	table tfoot {
-		border-top: solid 2px #ffffff;
+		border-top: solid 2px #d7bd87;
 	}
 
 	table.alt {
@@ -962,7 +962,7 @@ table {
 	}
 
 		table.alt tbody tr td {
-			border: solid 1px #ffffff;
+			border: solid 1px #d7bd87;
 			border-left-width: 0;
 			border-top-width: 0;
 		}
@@ -1002,7 +1002,7 @@ button,
 	border-radius: 4px;
 	border: 0;
 	box-shadow: inset 0 0 0 1px #d3b780;
-	color: #d3b780 !important;
+	color: #d7bd87 !important;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 0.8rem;
@@ -1066,7 +1066,7 @@ button,
 	button.primary,
 	.button.primary {
 		background-color: #ffffff;
-		color: #1b1f22 !important;
+		color: #d7bd87 !important;
 		font-weight: 600;
 	}
 
@@ -1267,7 +1267,7 @@ button {
 			left: calc(50% - 1px);
 			width: 1px;
 			height: calc(3.5rem + 1px);
-			background: #ffffff;
+			background: #d7bd87;
 		}
 
 	#header > :first-child {
@@ -1282,7 +1282,7 @@ button {
 		width: 5.5rem;
 		height: 5.5rem;
 		line-height: 5.5rem;
-		border: solid 1px #ffffff;
+		border: solid 1px #d7bd87;
 		border-radius: 100%;
 	}
 
@@ -1292,7 +1292,7 @@ button {
 
 	#header .content {
 		border-style: solid;
-		border-color: #ffffff;
+		border-color: #d7bd87;
 		border-top-width: 1px;
 		border-bottom-width: 1px;
 		max-width: 100%;
@@ -1331,13 +1331,13 @@ button {
 		margin-bottom: 0;
 		list-style: none;
 		padding-left: 0;
-		border: solid 1px #ffffff;
+		border: solid 1px #d7bd87;
 		border-radius: 4px;
 	}
 
 		#header nav ul li {
 			padding-left: 0;
-			border-left: solid 1px #ffffff;
+			border-left: solid 1px #d7bd87;
 		}
 
 			#header nav ul li:first-child {
@@ -1372,7 +1372,7 @@ button {
 		left: calc(50% - 1px);
 		width: 1px;
 		height: 100%;
-		background: #ffffff;
+		background: #d7bd87;
 	}
 
 	#header nav.use-middle ul li.is-middle {
@@ -1469,7 +1469,7 @@ button {
 
 				#header nav ul li {
 					border-left: 0;
-					border-top: solid 1px #ffffff;
+					border-top: solid 1px #d7bd87;
 				}
 
 					#header nav ul li:first-child {
